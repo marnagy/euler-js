@@ -2,10 +2,10 @@ var ProgressBar = require('progress')
 
 const primes = []
 let sum = 0
-let bar = new ProgressBar(':bar :percent', {
+let bar = new ProgressBar(':percent [:bar] :etas', {
     total: 2_000_000 - 2,
     complete: '#',
-    incomplete: ' '
+    incomplete: '-'
 })
 
 for (let i = 2; i < 2_000_000; i++) {
