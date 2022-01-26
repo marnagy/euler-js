@@ -104,6 +104,4 @@ const numbers = [
 let sum = 0
 numbers.forEach(n => sum += n)
 
-const sum_str = sum.toString()
-
-console.log(sum_str.slice(0,11).replace('.',''))
+console.log( sum.toString().slice(0,11).replace('.','') )
