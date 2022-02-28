@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "argparse": "^2.0.1",
+    "datastructures-js": "^10.2.0",
     "progress": "^2.0.3"
   }
 }
