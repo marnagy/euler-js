@@ -41,4 +41,4 @@ for (let a = -1000; a <= 1000; a++) {
 }
 
 console.log(`Final product: ${final_product}`)
-//console.log(`Correct solution: -59231`) // whyyy do I get different result??
+//console.log(`Correct solution: -59231`) // why do I get different result?
